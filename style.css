@@ -1,0 +1,47 @@
+header{
+    height: 40vh;
+}
+.imagenFondo{
+    background:url(fondoHeader.jpeg);
+    opacity: 0.6;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.contSelect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+select{
+    background-color: black;
+    color: white;
+}
+#card{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.div_Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    width: 20vw;
+}
+.div_Card img{
+    width: 10rem;
+    height: 10rem;
+}
+.title{
+    font-size: 30px;
+}
+.status{
+    font-size: 30px;
+}
+.gender{
+    font-size: 30px;
+}
